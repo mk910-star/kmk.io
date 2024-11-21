@@ -1,0 +1,38 @@
+body {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: 1fr 1fr 1fr;
+  
+    font: 14px/1.5 monospace;
+  }
+  
+  .section {
+    height: 200px;
+  
+    background: #ffeb3b;
+  }
+  
+  .image {
+    background-image: url("https://assets.codepen.io/1425525/Hexlet_Logo-01-svg__1_.png");
+    background-repeat: no-repeat;
+  }
+  
+  .bg-top {
+    background-position: top;
+  }
+  
+  .bg-right {
+    background-position: right;
+  }
+  
+  .bg-bottom {
+    background-position: bottom;
+  }
+  
+  .bg-left {
+    background-position: left;
+  }
+  
+  .bg-center {
+    background-position: center;
+  }
